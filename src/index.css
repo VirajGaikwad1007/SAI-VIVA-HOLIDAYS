@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #123d34;
+  --primary-dark: #0a241e;
+  --accent: #d49a3f;
+  --accent-light: #fbeedb;
+  --sand: #fbf9f5;
+  --card-bg: #ffffff;
+  --text-main: #1f2824;
+  --text-muted: #66726b;
+  --border-subtle: #e6e8e4;
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--sand);
+  color: var(--text-main);
+}
+
+.font-serif-heading {
+  font-family: var(--font-heading);
+}
+
+@keyframes scrollTrack {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-ticker {
+  display: flex;
+  width: max-content;
+  animation: scrollTrack 40s linear infinite;
+}
+
+.animate-ticker:hover {
+  animation-play-state: paused;
+}

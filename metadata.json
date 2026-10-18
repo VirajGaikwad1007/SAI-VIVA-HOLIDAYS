@@ -1,0 +1,6 @@
+{
+  "name": "Sai Viva Holidays",
+  "description": "Curated domestic and international holiday packages, bespoke travel itineraries, pilgrimage journeys, and AI-powered high-thinking vacation architect.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
